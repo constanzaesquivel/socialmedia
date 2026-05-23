@@ -1,0 +1,19 @@
+import { HeroSection } from "@/components/hero-section"
+import { AboutSection } from "@/components/about-section"
+import { WhySection } from "@/components/why-section"
+import { BonusSection } from "@/components/bonus-section"
+import { CtaSection } from "@/components/cta-section"
+import { Footer } from "@/components/footer"
+
+export default function Home() {
+  return (
+    <main>
+      <HeroSection />
+      <AboutSection />
+      <WhySection />
+      <BonusSection />
+      <CtaSection />
+      <Footer />
+    </main>
+  )
+}
